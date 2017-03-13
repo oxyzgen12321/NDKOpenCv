@@ -9,7 +9,7 @@ OpenCV_CAMERA_MODULES := off
 OPENCV_LIB_TYPE :=STATIC
 
 ifeq ("$(wildcard $(OPENCV_MK_PATH))","")
-include /Users/oxyzgen/workspace/svn/NDK/native/jni/OpenCV.mk
+include /Users/oxyzgen/workspace/svn/NDKOpenCv/native/jni/OpenCV.mk
 else
 include $(OPENCV_MK_PATH)
 endif
